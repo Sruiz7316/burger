@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon server.js",
+    "db:seed": "echo \"Should seed sql dump from db folder\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
