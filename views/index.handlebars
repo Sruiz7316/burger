@@ -1,0 +1,41 @@
+<center>
+
+  <img src="img/hamburger-icon-png-27.jpg">
+  <img src="img/burger.png">
+  <img src="img/kissclipart-cheeseburger-clipart-cheeseburger-veggie-burger-ju-74b049bacbee4a3d.png">
+
+  <h1 id="title" style="color: darkred;">Eat-Da-Burger!</h1>
+
+  <ul>
+    {{#each burgers}}
+    <li style="list-style: none;">
+      <p>{{this.id}}.{{this.burger_name}}</p>
+      <button type="submit">Devoure it!</button>
+    </li>
+    {{/each}}
+  </ul>
+
+  <form id="submit" method="POST" action="/create">
+    <input type <textarea type="text" name="burger"></textarea>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+
+</center>
+
+
+{{!-- <html>
+
+<head>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <h1>Test</h1>
+    </div>
+  </div>
+</body>
+
+</html> --}}
