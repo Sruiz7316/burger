@@ -36,7 +36,7 @@ var connection = mysql.createConnection(
     user: 'root',
     password: 'Capaluna$731600',
     database: 'burgers_db'
-  }
+  } 
 )
 
 connection.connect(function (err) {
